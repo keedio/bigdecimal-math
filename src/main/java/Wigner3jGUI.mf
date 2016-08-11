@@ -1,0 +1,4 @@
+Main-Class: org/nevec/rjm/Wigner3jGUI
+Specification-Version: 2011-02-15
+Specification-Title: Wigner 3j Symbols
+Implementation-Title: org.nevec.rjm.Wigner3jGUI
