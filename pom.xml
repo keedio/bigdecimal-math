@@ -45,6 +45,19 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>keedio-releases</id>
+            <name>Keedio Releases</name>
+            <url>http://jenkson.keedio.com:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>keedio-snapshots</id>
+            <name>Keedio Snapshots</name>
+            <url>http://jenkson.keedio.com:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
